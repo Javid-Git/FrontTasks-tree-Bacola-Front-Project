@@ -1,0 +1,246 @@
+.no-product{
+    padding: 8rem 0 0 0;
+    .no-product-all{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .cart-win{
+            width: 10.75rem;
+            height: 10.75rem;
+            svg{
+                width: 111px;
+                height: 103px;
+                left: 30px;
+    
+            }
+        }
+        p{
+            font-size: 1.125rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #ed174a;
+            font-family: 'Dosis';
+            padding: 1.5rem 0;
+        }
+        .buttonn{
+            background-color: #233a95;
+            border: 1px solid #233a95;
+            color: white;
+            font-weight: 500;
+            font-family: 'Inter';
+            font-size: .8125rem;
+            position: unset;
+            border-radius: 30px;
+            padding: 1rem 2rem;
+            &:hover{
+                color: white;
+                background-color: #4c5a92;
+                border: 1px solid #4c5a92;
+            }
+        }
+    }
+    
+}
+#product-in-cart{
+    padding: 4rem 0 0 0 ;
+    margin-bottom: 3rem;
+}
+.product-cart-info{
+    table{
+        width: 100%;
+    }
+}
+.product-cart-count{
+    .decrease{
+        padding: 0;
+        i{
+            padding: 10px 12px;
+            font-size: 10px;
+        }
+
+    }
+    .increase{
+        padding: 0;
+
+        i{
+            padding: 10px 12px;
+
+            font-size: 10px;
+        }
+    }
+    .num-count{
+        font-size: .9375rem;
+        font-family: 'Inter';
+        color: #202435;
+        padding: 0 1rem;
+    }
+}
+.cart-in-pic{
+    width: 84px;
+    height: 84px;
+}
+th{
+    padding: 1.5rem 0 .5rem 0;
+    font-size: .75rem;
+    font-weight: 600;
+    color: #71778e;
+    font-family: 'inter';
+
+}
+.cart-total-price{
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 8px;
+    h2{
+        font-size: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 0.9375rem 0;
+        color: #202435;
+        font-family: 'Dosis';
+        border-bottom: 1px solid rgb(209, 209, 209) !important;
+
+    }
+    
+    tr{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem 0;
+        th{
+            padding: 0;
+            font-weight: 600;
+            color: #202435;
+
+        }
+        td{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            font-size: .8125rem ;
+            font-weight: 400;
+            letter-spacing: -.1px;
+            font-family: 'Inter';
+            color: #202435;
+            label{
+                font-size: .8125rem ;
+                font-weight: 400;
+                letter-spacing: -.1px;
+                font-family: 'Inter';
+                color: #202435; 
+            }
+            #flat-rate{
+                color: #ed174a;
+                font-size: .975rem;
+            }
+        }
+        .overall-total{
+            font-size: 1.25rem ;
+            font-weight: 600;
+        }
+        .mid-way-total{
+            font-size: .95rem ;
+
+        }
+        .checkout{
+            width: 100%;
+            background-color: #ed174a;
+            border-radius: 4px;
+            font-size: .875rem;
+            padding: 8px 0;
+            outline: none;
+            border: none;
+
+        }
+    }
+    
+    ul{
+        list-style: none;
+        padding: 0;
+        font-size: .775rem;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        li{
+            padding: .5rem 0;
+        }
+    }
+}
+
+.product-cart-price{
+    font-weight: 500;
+    font-size: .875rem;
+    color: #71778e;
+    letter-spacing: -.1px;
+    font-family: 'inter';
+}
+#subtotal{
+    font-weight: 500;
+    font-size: .875rem;
+    color: #212529;
+    letter-spacing: -.1px;
+    font-family: 'inter';
+    line-height: 1.5;
+
+}
+.product-cart-name{
+    font-weight: 400;
+    font-size: .875rem;
+    color: #212529;
+    letter-spacing: -.1px;
+    font-family: 'inter';
+    line-height: 1.5;
+}
+tr{
+    border-bottom: 1px solid rgb(209, 209, 209) !important;
+    padding: .5rem 0;
+}
+.delete{
+    cursor: pointer;
+}
+.confirm-btn{
+    background-color: #233a95 !important;
+    color: white !important;
+    font-family: 'Inter';
+    font-size: .875rem !important;
+
+}
+
+@media (max-width: 576px) {
+    .confirm-btn{
+        padding: 0 !important;
+    }
+    .no-product{
+        margin: auto;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .cart-win{
+        z-index: -1;
+
+    }
+    .product-cart-price{
+        display: none;
+    }
+    .rem-cart-price{
+        display: none;
+    }
+    #subtotal{
+        display: none;
+    }
+    .rem-cart-subtotal{
+        display: none;
+    }
+    .cart-total-price{
+        margin: auto;
+    }
+    .update-cart{
+        padding: 0 .3rem;
+    }
+    form{
+        margin-bottom: 3rem;
+    }
+    #product-in-cart{
+        padding: 0;
+    }
+}

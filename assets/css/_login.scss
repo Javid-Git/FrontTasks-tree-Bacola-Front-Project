@@ -1,0 +1,178 @@
+.field{
+    .field-title{
+        font-size: 1rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        padding-bottom: 0.75rem;
+        margin-bottom: 0.75rem;
+        font-family: 'Dosis';
+        border-bottom: 1px solid #edeef5;
+    }
+    .entry{
+        .check{
+            padding-bottom: 1rem;
+            label{
+                font-size: .8125rem;
+                margin-bottom: 0.5rem;
+                font-weight: 400;
+                letter-spacing: 0;
+                line-height: 24px;
+                font-family: 'Inter';
+                color: #202435;
+
+            }
+            input{
+                border: none;
+                outline: none;
+                background-color: #f3f4f7;
+                font-size: .9375rem;
+                width: 100%;
+                height: 2.5rem;
+                padding: 0 0.9375rem;
+                color: #202435;
+                border-radius: 5px;
+                font-family: 'Inter';
+
+            }
+        }
+        .remember-check{
+            margin-bottom: 1rem;
+
+            label{
+                font-size: .8125rem;
+                font-weight: 400;
+                letter-spacing: 0;
+                line-height: 24px;
+                font-family: 'Inter';
+                padding-left: .5rem;
+                color: #202435;
+
+            }
+        }
+        .policies{
+            margin-bottom: 1rem;
+
+            p{
+                padding: 0;
+                margin: 0;
+                font-size: .8125rem;
+                font-weight: 400;
+                letter-spacing: 0;
+                line-height: 24px;
+                font-family: 'Inter';
+                color: #202435;
+                span{
+                    a{
+                        color: red;
+                        font-weight: 600;
+                        text-decoration: underline !important;
+
+                    }
+                    
+                }
+            }
+        }
+        .password-security{
+            padding: 0;
+            margin: 0;
+            font-size: .7125rem;
+            font-weight: 400;
+            letter-spacing: 0;
+            line-height: 24px;
+            font-family: 'Inter';
+            color: #202435;
+            
+            .success{
+                color: green;
+                font-weight: 600;
+            }
+            .fail{
+                color: red;
+                font-weight: 600;
+            }
+        }
+        .field-button{
+            border: none;
+            background-color: rgb(35, 58, 149);
+            padding: 8px 18px;
+            color: white;
+            border-radius: 4px;
+            font-family: 'Inter';
+            font-size: .875rem;
+            font-weight: 500;
+        }
+        
+    }
+}
+.weak-password{
+    display: none;
+}
+.password-instructions{
+    display: none;
+}
+.weak-lpassword{
+    display: none;
+}
+.lpassword-instructions{
+    display: none;
+}
+.site-navigation{
+    padding: 1rem 0 5rem 0;
+    ul{
+        list-style: none;
+        display: flex;
+        padding: 0;
+        margin: 0;
+        li{
+            padding: 0;
+            margin: 0;
+            font-size: .75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            font-family: 'Dosis';
+            a{
+                color: #3e445a;
+
+            }
+        }
+        :nth-child(2){
+            color: #9b9bb4;
+            
+            &::before{
+                font-family: "klbtheme";
+                font-size: 110%;
+                content: '\e8d3';
+                margin-left: 0.625rem;
+                margin-right: 0.625rem;
+            }
+        }
+        :nth-child(3){
+            color: #9b9bb4;
+            
+            &::before{
+                font-family: "klbtheme";
+                font-size: 110%;
+                content: '\e8d3';
+                margin-left: 0.625rem;
+                margin-right: 0.625rem;
+            }
+        }
+        
+    }
+}
+.account-check{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#section1login{
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 576px) {
+    .login-field{
+        margin-bottom: 3rem;
+    }
+    
+}

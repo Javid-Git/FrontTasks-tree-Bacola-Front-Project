@@ -1,0 +1,103 @@
+#section1-about{
+    font-family: 'Inter';
+    text-align: center;
+    height: 90vh;
+    background: rgba(0,0,0,.4) url(https://klbtheme.com/bacola/wp-content/uploads/2021/08/about-header.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    .introduction-title{
+        color: white;
+        font-size: 3.75rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        line-height: 1.2;
+    }
+    .introduction-moto{
+        letter-spacing: 4px;
+        font-size: .75rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: white;
+
+    }
+
+}
+#section2-about{
+
+}
+.section-about-text{
+    font-weight: normal;
+    line-height: 24px;
+    font-size: 14px;
+    font-family: 'Inter';
+    color: #202435;
+    padding: 2rem 0;
+}
+.following-text{
+    padding: 0 0 2rem 0;
+    
+}
+.section-about-title{
+    font-weight: 600;
+    line-height: 1.2em;
+    font-size: 2rem;
+    font-family: 'Inter';
+    color: #202435;
+}
+#section3-about{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0px 0px 0px 60px;
+}
+
+#section4-about{
+    .section4-about-all{
+        position: relative;
+        .section4-picture{
+            position: relative;
+            img{
+                width: 95%;
+            }
+        }
+        
+    }
+}
+.middle-part{
+    padding: 0 2rem;
+    h3{
+        font-size: 1.75rem;
+
+    }
+    .section-describtion{
+        font-weight: normal;
+        line-height: 24px;
+        font-size: 16px;
+        font-family: 'Inter';
+        color: #202435;
+        padding: 2rem 0;
+    }
+}
+.bottom-part{
+    background-color: white;
+    border-radius: 8px;
+    position: absolute;
+    width: 93% !important;
+    padding-right: 0;
+    padding-left: 0;
+    padding: 60px 15px 60px 100px;
+    bottom: -68px;
+    left: 118px;
+    p{
+        padding: 0;
+        margin: 0;
+
+    }
+}
+
+#section5-about{
+    padding-top: 4rem;
+    p{
+        padding-bottom: 0;
+    }
+}

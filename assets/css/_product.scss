@@ -1,0 +1,430 @@
+.product-wide-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.9375rem;
+    font-family: 'Inter';
+    line-height: 1.2;
+    letter-spacing: 0;
+    color: #202435;
+    padding: 0;
+    margin: 0;
+    padding: 3rem 0 .5rem 0;
+    
+}
+ 
+.prouct-wide-code{
+    letter-spacing: .6px;
+
+}
+.product-section2{
+    padding: 2rem 0;
+
+}
+.product-section2-all{
+    background-color: white;
+    border-radius: 5px;
+    padding: 0 1rem 4rem 0; 
+}
+.product-wide-introduction{
+    padding: 0 2rem;
+}
+.main-wraper{
+    background-color: #f7f8fd;
+    
+}
+.prouct-wide-description{
+    padding: 0 !important;
+    margin: .3rem 0;
+    .fa-star{
+        color: rgb(255, 230, 0);
+        font-size: 10px;
+    }
+    .gray-out{
+        color: rgb(219, 218, 218);
+
+    }
+    span{
+        font-weight: 600;
+        text-decoration: none;
+        font-family: 'Dosis';
+        font-size: .7325rem;
+        color: #979797;
+        padding-right: .5rem;
+    }
+}
+.prouct-wide-code{
+    .border-span{
+        font-weight: 500;
+        font-size: .75rem;
+        line-height: 1.5;
+        border-left: 1.5px solid #959699;
+        padding-left: .5rem;
+
+        span{
+            color: #8a8d96;
+
+        }
+
+    }
+
+}
+
+.product-wide-actual{
+    text-decoration:line-through;
+    color: #c2c2d3;
+    font-weight: 600;
+    font-family: 'Dosis';
+    margin-bottom: 1rem;
+}
+.product-wide-discount{
+    color: #d51243;
+    font-weight: 600;
+    font-size: 1.625rem;
+    font-family: 'Dosis';
+    padding-left: 1rem;
+}
+.product-wide-availability{
+    font-size: .75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Dosis';
+    color: #202435;
+    padding: 1rem 0;
+    span{
+        color: green;
+        padding: .3rem 1rem;
+        border-radius: 30px;
+        background: linear-gradient(to right, rgb(161, 231, 202), rgba(128, 128, 128, 0));
+    }
+}
+.product-wide-text{
+    font-size: .8125rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 24px;
+    font-family: 'Inter';
+    color: #3e445a;
+    padding: 1rem 0;
+
+}
+.increase{
+    padding: 10px 15px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 50%;
+}
+.decrease{
+    padding: 10px 15px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 50%;
+}
+.num-count{
+    font-size: .9375rem;
+    font-family: 'Inter';
+    color: #202435;
+    padding: 0 1rem;
+}
+.wide-counter-s{
+    display: none;
+}
+.wide-counter{
+    padding: 1rem 0;
+    display: flex;
+    .atc-yellow{
+        padding-left: .5rem;
+        button{
+            background-color: #233a95;
+            color: white;
+            font-weight: 600;
+            border-radius: 30px;
+            font-size: .75rem;
+            padding: .8rem 3rem;
+            width: 174px;
+            &:hover{
+                color: white;
+            }
+        }
+    }
+}
+
+.product-bottom-description{
+    border-bottom: 1px solid rgb(236, 236, 236);
+    
+}
+.add-to-wish{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    a{
+        padding: 7px 15px;
+        border-radius: 30px;
+        border: 1px solid rgb(201, 201, 201);
+        span{
+            font-size: .75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            font-family: 'Dosis';
+            color: #71778e;
+            i{
+                padding-right: .3rem;
+                font-size: .95rem;
+
+            }
+        }
+    }
+}
+.compare{
+    margin-top: 2rem;
+    margin-left: 1rem;
+    a{
+        padding: 7px 15px;
+        border-radius: 30px;
+        span{
+            font-size: .75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0;
+            font-family: 'Dosis';
+            color: #71778e;
+            i{
+                padding-right: .3rem;
+                font-size: .95rem;
+
+            }
+        }
+    }
+}
+.product-wide-categories{
+    padding: 1.5rem 0;
+    div{
+        span{
+            font-weight: 500;
+            text-decoration: none;
+            font-family: 'Inter';
+            font-size: .7325rem;
+            color: #969595;
+            padding-right: .5rem;
+
+            a{
+                color: rgb(95, 95, 95);
+                &:hover{
+                    text-decoration: underline !important;
+
+                }
+            }
+        }
+    }
+}
+.product-wide-socials{
+    padding: 0 0 2rem 0;
+    ul{
+        margin: 0;
+        padding: 0;
+        li{
+            padding-right: .5rem;
+            a{
+                padding: 7px 12px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                i{
+                    color: white;
+                }
+            }
+        }
+        .facebook{
+            background-color: #3b5998;
+        }
+        .twitter{
+            background-color: #1da1f2;
+        }
+        .pinterest{
+            background-color: #e60023;
+        }
+        .linkedin{
+            background-color: #0077b5;
+
+        }
+        .reddit{
+            background-color: #ff4500;
+
+        }
+        .whatsapp{
+            background-color: #25d366;
+
+        }
+    }
+}
+.product-wide-picture{
+    img{
+        width: 100%;
+    }
+}
+.product-wide-bottom-picture{
+    .product-bottom-picture{
+        border: 1px solid #e2e2e2;
+        border-radius: 6px;
+        margin-right: .5rem;
+        img{
+            width: 100%;
+            border-radius: 6px;
+        }
+    }
+    .b-blue{
+        border: 1px solid #3b5998;
+
+    }
+}
+
+.delivery-info{
+    margin-left: 2rem;
+}
+.covid-message{
+    font-size: .75rem;
+    text-align: center;
+    width: 100%;
+    color: #be143c;
+    background-color: #ffeef2;
+    border-radius: 4px;
+    padding: 10px 10px;
+    font-family: 'Inter';
+}
+.delivery-messages{
+    background-color: #f7f8fd;
+    padding: 2rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+}
+.delivery-list{
+    display: flex;
+    align-items: center;  
+    margin-bottom: 0.75rem;
+
+    i{
+        font-size: 20px;
+    }
+    .message{
+        padding-left: .5rem;
+        font-size: .75rem;
+        width: 100%;
+        margin-bottom: 0.75rem;
+        font-family: 'Inter';
+    }
+}
+.product-section3-all{
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 8px;
+
+}
+// tabs
+.tab-group{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(236, 236, 236);
+    border-radius: 8px;
+
+    li{
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0;
+        text-decoration: none;
+        padding: 1.25rem;
+        color: #c2c2d3;
+        font-family: 'Dosis';
+    }
+}
+  .tab{
+    flex-grow: 1;
+    padding:5px;
+    list-style:none;
+    text-align:center;
+    cursor:pointer;
+
+  }
+  .panel-group{
+    height:auto;
+    border-top:none;
+    background:rgb(255, 255, 255);
+    padding: 2rem;
+    border-radius: 8px;
+
+  }
+  .panel{
+    display:none;
+  }
+  .tab.is-active{
+    color:#000;
+    transition: all 0.2s ease-out;
+  }
+  .panel.is-show{
+    display:block;
+  }
+
+.footer{
+    .footer-baner{
+        margin-top: 0;
+    }
+}
+
+.product-section4{
+    padding: 3.5rem 0;
+}
+.product-section5{
+    padding-bottom: 5.5rem;
+}
+.related-products{
+    .product{
+        background-color: white;
+        .product-fade-block{
+            width: calc(100% + 2px);
+            a{
+                padding: 0.4rem 5.5rem;
+
+            }
+        }
+    }
+}
+.site-navigation{
+    padding: 1rem 0;
+}
+.footer-baner{
+    margin-top: 0 !important;
+}
+
+@media (max-width: 576px) {
+    .wide-counter{
+        display: none;
+    }
+    .wide-counter-s{
+        width: 100%;
+        position: sticky;
+        bottom: 0px;
+        background-color: white;
+        padding: 1rem 0;
+        display: flex;
+        justify-content: space-between;
+        z-index: 11111111;
+            .atc-yellow{
+                padding-left: .5rem;
+                button{
+                    background-color: #233a95;
+                    color: white;
+                    font-weight: 600;
+                    border-radius: 30px;
+                    font-size: .75rem;
+                    padding: .8rem 3rem;
+                    width: 174px;
+                    &:hover{
+                        color: white;
+                    }
+                }
+            }
+        }
+}
